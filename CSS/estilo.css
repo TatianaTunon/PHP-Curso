@@ -1,5 +1,5 @@
 header {
-    background-image: url(../imagenes/fondo-cabecera.jpg); /*no olvidar poner la / inicial y los dos punts .. para subir antes al nivel del HTML en la ruta*/
+    background-image: url(/imagenes/fondo-cabecera.jpg); /*no olvidar poner la / inicial en la ruta*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

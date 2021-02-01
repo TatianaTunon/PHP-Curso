@@ -17,23 +17,21 @@ and open the template in the editor.
     <body> 
       <section>
         <header>
-            <img src="imagenes/logo-nombre.png" alt="Logo"></img>
-            <a href="#"><span style="font-size: 2em; line-height: 4em; color: rgb(35, 199, 228); float: right; padding-right: 0.30em;">
-            <i class="fab fa-twitter"></i></span></a>
-            <a href="#"><span style="font-size: 2em; line-height: 4em; color: rgb(177, 24, 40); float: right; padding-right: 0.30em;">
-            <i class="fab fa-instagram"></i></span></a>
-            <a href="#"><span style="font-size: 2em; line-height: 4em;  color: rgb(23, 20, 226); float: right; padding-right: 0.30em;">
-            <i class="fab fa-facebook"></i></span></a>
+            <?php
+            include "header.php";
+            ?>
         </header>
       </section>
       <section>
         <nav> 
            <table style="width:100%" height="35">
+               
                     <td><b>Inicio</b></td>
                     <td><b>Contenido</b></td>
                     <td><b>Galeria</b></td>
                     <td><b>Entrevistas</b></td>
                     <td><b>Recursos</b></td>
+               
             </table>
         </nav>
       </section>
@@ -93,6 +91,8 @@ and open the template in the editor.
       </section>
     </body>
     <footer> 
-        <a href="#">Datos de contacto</a><p>&#169;2021</p>
+        <?php
+        include "footer.php";
+        ?>
     </footer>
 </html>
